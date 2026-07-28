@@ -31,7 +31,8 @@ bld/
 *.nuget.targets
 packages/
 
-# .NET Core
+# .NET Core (dotnet publish)
+out/
 project.lock.json
 project.fragment.lock.json
 artifacts/

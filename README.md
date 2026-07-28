@@ -118,6 +118,7 @@ dotnet publish -c Release -r linux-musl-x64 --self-contained -p:PublishSingleFil
 
 ```sh
 scp -r out/* root@server:/app/
+chmod +x /app/SmtpToTelegram
 ```
 
 ### Необходимые пакеты ICU
